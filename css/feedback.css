@@ -1,0 +1,48 @@
+#feedback{
+    background-image: url('../img/bg-feedback.webp');
+}
+
+.content-card-feedback{
+    background-color: white;
+    height: 310px;
+}
+
+.content-titulo-feedback{
+    font-family: var(--fonte-Poppins);
+}
+.titulo1-feedback{
+    font-size: 1.2rem;
+    color: white;
+}
+.titulo2-feedback{
+    font-weight: 800;
+    font-size: 3rem;
+    color: white;
+}
+
+.cliente h2{
+    font-family: var(--fonte-Poppins);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.avaliacao p{
+    font-family: var(--fonte-Poppins);
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.cliente4{
+    border-radius: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    color: #59A200;
+}
+.swiper-button-prev{
+    left: 0px;  
+}
+
+.swiper-button-next{
+    right: 0px;
+}

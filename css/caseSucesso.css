@@ -1,0 +1,36 @@
+#case-sucesso{
+    font-family: var(--fonte-Poppins);
+}
+
+.content-titulo-case-sucesso h2{
+    font-family: var(--fonte-Poppins);
+    color: #001133;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.content-titulo-case-sucesso h3{
+    font-family: var(--fonte-Poppins);
+    font-weight: 800;
+    color: #001133;
+    font-size: 3rem;
+    line-height: 2rem;
+}
+
+.btn-saiba-mais-case-sucesso{
+    text-decoration: none;
+    font-weight: 600;
+    background: linear-gradient(to right, #59A200, #3377FF);
+    color: white;
+    animation: pulse 1.5s infinite;
+    transition: 0.5s;
+}
+
+.btn-saiba-mais-case-sucesso:hover{
+    background: #001133;
+} 
+
+@media (max-width: 991px){
+    .content-titulo-case-sucesso h3{
+        line-height: 3rem;
+    }
+}

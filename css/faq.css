@@ -1,0 +1,67 @@
+.bg-faq{
+    background-color: #E5EEFF;
+}
+#perguntasErespostas{
+    color: white;
+}
+.content-titulo-faq{
+    font-family: var(--fonte-Poppins);
+}
+.titulo1-faq{
+    font-family: var(--fonte-Poppins);
+    color: #001133;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.titulo2-faq{
+    font-family: var(--fonte-Poppins);
+    font-weight: 800;
+    color: #001133;
+    font-size: 3rem;
+    line-height: 2rem;
+}
+
+
+
+.accordion{
+    --bs-accordion-active-bg: #CCDDFF;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: #CCDDFF;
+    --bs-accordion-border-width: 0px;
+    
+    --bs-accordion-button-active-color: white;
+}   
+ 
+   
+
+
+.accordion-button.collapsed{
+    padding: 2.5%;
+    font-size: 1.3rem;
+    color: #001133;
+    font-weight: 400;
+    background-color: #CCDDFF;
+}
+.accordion-collapse{
+    background-color: #CCDDFF;
+    color: #001133;
+}
+.accordion-button:not(.collapsed){
+    color: #001133;
+    box-shadow: none;
+    padding: 2.5%;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.accordion-body{
+    font-size: 1.1rem;
+    color: #002266;
+}
+
+@media (max-width: 992px){
+    .titulo2-faq{
+        line-height: 3.5rem;
+    }
+}

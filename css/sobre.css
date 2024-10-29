@@ -1,0 +1,35 @@
+.titulo1-sobre{
+    font-family: var(--fonte-Poppins);
+    color: #001133;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.titulo2-sobre{
+    font-family: var(--fonte-Poppins);
+    font-weight: 800;
+    color: #001133;
+    font-size: 3rem;
+    line-height: 2.7rem;
+}
+
+.content1-sobre p{
+    color: #002266;
+}
+
+.content1-sobre a{
+    text-decoration: none;
+    background: linear-gradient(to right, #59A200, #3377FF);
+    color: white;
+    animation: pulse 1.5s infinite;
+    transition: 0.5s;
+}
+
+.content1-sobre a:hover{
+    background: #001133;
+}
+#content2-sobre{
+    background-image: url('../img/img-sobre.webp');
+    background-size: cover;
+    background-position: center;
+}
