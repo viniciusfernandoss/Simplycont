@@ -27,344 +27,345 @@
 
 
     <header>
-        <!-- 
-        ==================================================================
-                        Barra de contatos e informações
-        ==================================================================
-        -->
-        <section class="bg-info-bar d-none d-lg-block" id="headerr">
-            <div class="container py-2" id="info-bar">
-                <div class="content-info-bar d-flex justify-content-between">
-                    <div class="contato-info-bar d-flex align-items-center">
-                        <i class="bi bi-envelope"></i>
-                        <p class="mb-0 me-4 ms-2">
-                            email@email.com.br
-                        </p>
-                        <i class="bi bi-telephone"></i>
-                        <p class="mb-0 me-4 ms-2">
-                            (81) 9 8771-7205
-                        </p>
-                    </div>
-                    <div class="redes-info-bar d-flex align-items-center">
-                        <a href="" class="me-3"><i class="bi bi-whatsapp"></i></a>
-                        <a href=""><i class="bi bi-instagram"></i></a>
+        <div class="header-top-fixo w-100">
+            <!--
+            ==================================================================
+                            Barra de contatos e informações
+            ==================================================================
+            -->
+            <section class="bg-info-bar navinfo" id="headerr">
+                <div class="container d-none d-lg-block py-1" id="info-bar">
+                    <div class="content-info-bar d-flex justify-content-between">
+                        <div class="contato-info-bar d-flex align-items-center">
+                            <i class="bi bi-envelope"></i>
+                            <p class="mb-0 me-4 ms-2">
+                                email@email.com.br
+                            </p>
+                            <i class="bi bi-telephone"></i>
+                            <p class="mb-0 me-4 ms-2">
+                                (81) 9 8771-7205
+                            </p>
+                        </div>
+                        <div class="redes-info-bar d-flex align-items-center">
+                            <a href="" class="me-3"><i class="bi bi-whatsapp"></i></a>
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- 
-        ==================================================================
-                            Barra de Navegações
-        ==================================================================
-        -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container d-flex justify-content-between">
-                <a class="navbar-brand" href="index.html">
-                    <img src="img/logo-header.webp" alt="logo Simplycont Contabilidade">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#headerr">Início</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#servicos">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#perguntasErespostas">Perguntas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Sobre">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#feedback">Depoimentos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#footer-menu">Contato</a>
-                        </li>
-                    </ul>
+            </section>
+            <!--
+            ==================================================================
+                                Barra de Navegações
+            ==================================================================
+            -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container d-flex justify-content-between">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo-header.webp" alt="logo Simplycont Contabilidade">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#headerr">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#servicos">Serviços</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#perguntasErespostas">Perguntas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Sobre">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#feedback">Depoimentos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer-menu">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="btn-fazer-contato d-none d-lg-inline-block py-2 px-3 rounded-5">
+                        Fazer Contato
+                    </a>
                 </div>
-                <a href="#" class="btn-fazer-contato d-none d-lg-inline-block py-3 px-4 rounded-2">
-                    Fazer Contato
-                </a>
-            </div>
-        </nav>
+            </nav>
+        </div>
 
         <!-- 
         ==================================================================
                                 Banner Inicial
         ==================================================================
         -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-            <div class="carousel-indicators">
+        <section class="sessao-inicial">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-indicators">
+                    <button
+                        class="active"
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="0"
+                        aria-current="true"
+                        aria-label="Slide 1">
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2">
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="3"
+                        aria-label="Slide 4">
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="4"
+                        aria-label="Slide 5">
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="5"
+                        aria-label="Slide 6">
+                    </button>
+                    <button
+                        type="button"
+                        data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide-to="6"
+                        aria-label="Slide 7">
+                    </button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                        src="img/bg-slide1.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-none d-lg-block w-100 img-fluid"
+                    >
+                    <img
+                        src="img/mobile-bg-slide1.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-block d-lg-none w-100 img-mobile"
+                    >
+                    <div class="carousel-caption card-animation7 d-flex flex-column text-start justify-content-center">
+                       <h2>
+                            Olá, somos a Simplycont
+                       </h2>
+                       <p class="mt-3 mb-3 mb-lg-5">
+                            A Simplycont nasceu para facilitar a vida do empreendedor moderno, oferecendo soluções contábeis 100% online. Nossa missão é simplificar processos, reduzir burocracias e garantir que sua empresa esteja em dia com as obrigações fiscais.
+                       </p>
+                       <div class="btns-banner-inicial">
+                            <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5 me-3">
+                                Saiba Mais
+                            </a>
+                            <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5">
+                                Fazer Contato
+                            </a>
+                       </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                        src="img/bg-slide2.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-none d-lg-block w-100 img-fluid"
+                    >
+                    <img
+                        src="img/mobile-bg-slide2.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-block d-lg-none w-100 img-mobile"
+                    >
+                    <div class="carousel-caption d-flex flex-column text-start justify-content-center">
+                        <h2>
+                            Abertura de Empresa
+                        </h2>
+                        <p class="mt-3 mb-3 mb-lg-5">
+                            Abrir uma empresa nunca foi tão fácil. Na Simplycont, cuidamos de todo o processo burocrático para você, desde a escolha do regime tributário até a formalização junto aos órgãos competentes. Assim, você pode focar no que realmente importa: o sucesso do seu negócio.
+                        </p>
+                        <div class="btns-banner-inicial">
+                             <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5 me-3">
+                                 Saiba Mais
+                             </a>
+                             <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5">
+                                 Fazer Contato
+                             </a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                        src="img/bg-slide3.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-none d-lg-block w-100 img-fluid"
+                    >
+                    <img
+                        src="img/mobile-bg-slide3.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-block d-lg-none w-100 img-mobile"
+                    >
+                    <div class="carousel-caption d-flex flex-column text-start justify-content-center">
+                        <h2>
+                            Impostos e Tributos
+                        </h2>
+                        <p class="mt-3 mb-3 mb-lg-5">
+                            Simplificamos a gestão dos impostos da sua empresa, garantindo que você pague apenas o necessário, sempre em conformidade com as leis. Nosso time especializado cuida do planejamento tributário, evitando surpresas e otimizando a sua economia.
+                        </p>
+                        <div class="btns-banner-inicial">
+                             <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5 me-3">
+                                 Saiba Mais
+                             </a>
+                             <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5">
+                                 Fazer Contato
+                             </a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                        src="img/bg-slide4.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-none d-lg-block w-100 img-fluid"
+                    >
+                    <img
+                        src="img/mobile-bg-slide4.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-block d-lg-none w-100 img-mobile"
+                    >
+                    <div class="carousel-caption d-flex flex-column text-start justify-content-center">
+                        <h2>
+                            Gestão Financeira
+                        </h2>
+                        <p class="mt-3 mb-3 mb-lg-5">
+                            Oferecemos soluções completas de gestão financeira para pequenas e médias empresas. Nossos serviços incluem relatórios personalizados, análise de fluxo de caixa e projeções financeiras, permitindo que você tome decisões estratégicas com segurança e eficiência.
+                        </p>
+                        <div class="btns-banner-inicial">
+                             <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5 me-3">
+                                 Saiba Mais
+                             </a>
+                             <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5">
+                                 Fazer Contato
+                             </a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                        src="img/bg-slide5.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-none d-lg-block w-100 img-fluid"
+                    >
+                    <img
+                        src="img/mobile-bg-slide5.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-block d-lg-none w-100 img-mobile"
+                    >
+                    <div class="carousel-caption d-flex flex-column text-start justify-content-center">
+                        <h2>
+                            Contabilidade Online
+                        </h2>
+                        <p class="mt-3 mb-3 mb-lg-5">
+                            Com a Simplycont, você tem acesso a todos os serviços contábeis de forma online, sem complicações. Nosso sistema digital permite acompanhamento em tempo real da saúde financeira da sua empresa, com suporte especializado sempre à disposição para te ajudar.
+                        </p>
+                        <div class="btns-banner-inicial">
+                             <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5 me-3">
+                                 Saiba Mais
+                             </a>
+                             <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5">
+                                 Fazer Contato
+                             </a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                        src="img/bg-slide6.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-none d-lg-block w-100 img-fluid"
+                    >
+                    <img
+                        src="img/mobile-bg-slide6.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-block d-lg-none w-100 img-mobile"
+                    >
+                    <div class="carousel-caption d-flex flex-column text-start justify-content-center">
+                        <h2>
+                            Consultoria Contábil
+                        </h2>
+                        <p class="mt-3 mb-3 mb-lg-5">
+                            Além da contabilidade tradicional, oferecemos consultoria estratégica personalizada. Analisamos os números da sua empresa para propor soluções que maximizem a eficiência operacional e financeira. Nossos insights ajudam a reduzir custos e melhorar a rentabilidade do seu negócio.
+                        </p>
+                        <div class="btns-banner-inicial">
+                             <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5 me-3">
+                                 Saiba Mais
+                             </a>
+                             <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5">
+                                 Fazer Contato
+                             </a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                        src="img/bg-slide7.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-none d-lg-block w-100 img-fluid"
+                    >
+                    <img
+                        src="img/mobile-bg-slide7.webp"
+                        alt="Barckground Carrocel 1"
+                        class="d-block d-lg-none w-100 img-mobile"
+                    >
+                    <div class="carousel-caption d-flex flex-column text-start justify-content-center">
+                        <h2>
+                            Regularização de Empresas
+                        </h2>
+                        <p class="mt-3 mb-3 mb-lg-5">
+                            Se sua empresa enfrenta problemas com a regularização fiscal ou documental, nós cuidamos de tudo para você. Nossa equipe de especialistas em regularização atua para resolver pendências junto a órgãos governamentais, deixando sua empresa em conformidade com todas as exigências legais.
+                        </p>
+                        <div class="btns-banner-inicial">
+                             <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5 me-3">
+                                 Saiba Mais
+                             </a>
+                             <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-5">
+                                 Fazer Contato
+                             </a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
                 <button
-                    class="active"
+                    class="carousel-control-prev"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="0"
-                    aria-current="true"
-                    aria-label="Slide 1">
+                    data-bs-slide="prev"
+                >
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
                 </button>
                 <button
+                    class="carousel-control-next"
                     type="button"
                     data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2">
-                </button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3">
-                </button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="3"
-                    aria-label="Slide 4">
-                </button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="4"
-                    aria-label="Slide 5">
-                </button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="5"
-                    aria-label="Slide 6">
-                </button>
-                <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="6"
-                    aria-label="Slide 7">
+                    data-bs-slide="next"
+                >
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
                 </button>
             </div>
-    
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                    src="img/bg-slide1.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-none d-lg-block w-100 img-fluid"
-                >
-                <img
-                    src="img/mobile-bg-slide1.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-block d-lg-none w-100 img-mobile"
-                >
-                <div class="carousel-caption card-animation7 d-flex flex-column text-start justify-content-center">
-                   <h2>
-                        Olá, somos a Simplycont
-                   </h2>
-                   <p class="mt-3 mb-3 mb-lg-5">
-                        A Simplycont nasceu para facilitar a vida do empreendedor moderno, oferecendo soluções contábeis 100% online. Nossa missão é simplificar processos, reduzir burocracias e garantir que sua empresa esteja em dia com as obrigações fiscais.
-                   </p>
-                   <div class="btns-banner-inicial">
-                        <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3 me-3">
-                            Saiba Mais
-                        </a>
-                        <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3">
-                            Fazer Contato
-                        </a>
-                   </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                    src="img/bg-slide2.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-none d-lg-block w-100 img-fluid"
-                >
-                <img
-                    src="img/mobile-bg-slide2.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-block d-lg-none w-100 img-mobile"
-                >
-                <div class="carousel-caption d-flex flex-column text-start justify-content-center">
-                    <h2>
-                        Abertura de Empresa
-                    </h2>
-                    <p class="mt-3 mb-3 mb-lg-5">
-                        Abrir uma empresa nunca foi tão fácil. Na Simplycont, cuidamos de todo o processo burocrático para você, desde a escolha do regime tributário até a formalização junto aos órgãos competentes. Assim, você pode focar no que realmente importa: o sucesso do seu negócio.
-                    </p>
-                    <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3 me-3">
-                             Saiba Mais
-                         </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3">
-                             Fazer Contato
-                         </a>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                    src="img/bg-slide3.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-none d-lg-block w-100 img-fluid"
-                >
-                <img
-                    src="img/mobile-bg-slide3.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-block d-lg-none w-100 img-mobile"
-                >
-                <div class="carousel-caption d-flex flex-column text-start justify-content-center">
-                    <h2>
-                        Impostos e Tributos
-                    </h2>
-                    <p class="mt-3 mb-3 mb-lg-5">
-                        Simplificamos a gestão dos impostos da sua empresa, garantindo que você pague apenas o necessário, sempre em conformidade com as leis. Nosso time especializado cuida do planejamento tributário, evitando surpresas e otimizando a sua economia.
-                    </p>
-                    <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3 me-3">
-                             Saiba Mais
-                         </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3">
-                             Fazer Contato
-                         </a>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                    src="img/bg-slide4.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-none d-lg-block w-100 img-fluid"
-                >
-                <img
-                    src="img/mobile-bg-slide4.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-block d-lg-none w-100 img-mobile"
-                >
-                <div class="carousel-caption d-flex flex-column text-start justify-content-center">
-                    <h2>
-                        Gestão Financeira
-                    </h2>
-                    <p class="mt-3 mb-3 mb-lg-5">
-                        Oferecemos soluções completas de gestão financeira para pequenas e médias empresas. Nossos serviços incluem relatórios personalizados, análise de fluxo de caixa e projeções financeiras, permitindo que você tome decisões estratégicas com segurança e eficiência.
-                    </p>
-                    <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3 me-3">
-                             Saiba Mais
-                         </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3">
-                             Fazer Contato
-                         </a>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                    src="img/bg-slide5.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-none d-lg-block w-100 img-fluid"
-                >
-                <img
-                    src="img/mobile-bg-slide5.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-block d-lg-none w-100 img-mobile"
-                >
-                <div class="carousel-caption d-flex flex-column text-start justify-content-center">
-                    <h2>
-                        Contabilidade Online
-                    </h2>
-                    <p class="mt-3 mb-3 mb-lg-5">
-                        Com a Simplycont, você tem acesso a todos os serviços contábeis de forma online, sem complicações. Nosso sistema digital permite acompanhamento em tempo real da saúde financeira da sua empresa, com suporte especializado sempre à disposição para te ajudar.
-                    </p>
-                    <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3 me-3">
-                             Saiba Mais
-                         </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3">
-                             Fazer Contato
-                         </a>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                    src="img/bg-slide6.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-none d-lg-block w-100 img-fluid"
-                >
-                <img
-                    src="img/mobile-bg-slide6.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-block d-lg-none w-100 img-mobile"
-                >
-                <div class="carousel-caption d-flex flex-column text-start justify-content-center">
-                    <h2>
-                        Consultoria Contábil
-                    </h2>
-                    <p class="mt-3 mb-3 mb-lg-5">
-                        Além da contabilidade tradicional, oferecemos consultoria estratégica personalizada. Analisamos os números da sua empresa para propor soluções que maximizem a eficiência operacional e financeira. Nossos insights ajudam a reduzir custos e melhorar a rentabilidade do seu negócio.
-                    </p>
-                    <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3 me-3">
-                             Saiba Mais
-                         </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3">
-                             Fazer Contato
-                         </a>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img
-                    src="img/bg-slide7.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-none d-lg-block w-100 img-fluid"
-                >
-                <img
-                    src="img/mobile-bg-slide7.webp"
-                    alt="Barckground Carrocel 1"
-                    class="d-block d-lg-none w-100 img-mobile"
-                >
-                <div class="carousel-caption d-flex flex-column text-start justify-content-center">
-                    <h2>
-                        Regularização de Empresas
-                    </h2>
-                    <p class="mt-3 mb-3 mb-lg-5">
-                        Se sua empresa enfrenta problemas com a regularização fiscal ou documental, nós cuidamos de tudo para você. Nossa equipe de especialistas em regularização atua para resolver pendências junto a órgãos governamentais, deixando sua empresa em conformidade com todas as exigências legais.
-                    </p>
-                    <div class="btns-banner-inicial">
-                         <a href="#" class="btn-saiba-mais-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3 me-3">
-                             Saiba Mais
-                         </a>
-                         <a href="#" class="btn-fazer-contato-banner-inicial py-2 px-2 py-lg-3 px-lg-4 rounded-3">
-                             Fazer Contato
-                         </a>
-                    </div>
-                </div>
-              </div>
-            </div>
-
-            <button
-                class="carousel-control-prev"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev"
-            >
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-                class="carousel-control-next"
-                type="button"
-                data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next"
-            >
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        </section>
     </header>
 
 
@@ -375,7 +376,7 @@
                             Case de Sucesso
         ==================================================================
         -->
-        <div class="container-fluid d-flex flex-column align-items-center my-5" id="case-sucesso">
+        <div class="container-fluid d-flex flex-column align-items-center my-4" id="case-sucesso">
             <div class="content-titulo-case-sucesso">
                 <h2 class="text-center m-0 p-0">
                     SUCESSO
@@ -385,14 +386,14 @@
                 </h3>
             </div>
 
-            <div class="row my-4">
+            <div class="row my-3">
                 <div class="col-12 p-0">
                     <img src="img/img-case-sucesso.webp" alt="Case de Sucesso" class="img-fluid d-none d-lg-block">
                     <img src="img/img-case-sucesso-mobile.webp" alt="Case de Sucesso" class="img-fluid d-block d-lg-none">
                 </div>
             </div>
 
-            <a href="#" class="btn-saiba-mais-case-sucesso py-3 px-5 rounded-5">
+            <a href="#" class="btn-saiba-mais-case-sucesso py-2 px-4 rounded-5">
                 Fazer Contato
             </a>
             
@@ -403,8 +404,8 @@
                                     Serviços
         ==================================================================
         -->
-        <div class="container py-5" id="servicos">
-            <div class="content-titulo-servicos d-flex flex-column align-items-center mb-5">
+        <div class="container-fluid py-5" id="servicos">
+            <div class="content-titulo-servicos d-flex flex-column align-items-center mb-3">
                 <div class="titulos-servicos text-center">
                     <h2 class="titulo1-servicos m-0">
                         SERVIÇOS
@@ -415,17 +416,17 @@
                 </div>
             </div>
 
-            <div class="row d-none d-lg-flex">
+            <div class="row d-none d-lg-flex justify-content-center">
 
-                <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-servicos d-flex flex-column justify-content-evenly px-3 rounded-3">
+                <div class="col-12 col-lg-3 mb-4 mx-1">
+                    <div class="content-card-servicos d-flex flex-column justify-content-center px-4 rounded-3">
                         <div class="sercivos-info">
                             <img class="mb-2" src="icons/icon1-servicos.png" alt="Icone 1">
                             <h4>
                                 Abertura de Empresa
                             </h4>
                             <p>
-                                A Simplycont facilita a abertura de empresas, cuidando da burocracia para que o cliente foque no sucesso do negócio.
+                                A Simplycont simplifica a abertura de empresas, cuidando da burocracia.
                             </p>
                         </div>
                         
@@ -437,15 +438,15 @@
                     </div>   
                 </div>
 
-                <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-servicos d-flex flex-column justify-content-evenly px-3 rounded-3">
+                <div class="col-12 col-lg-3 mb-4">
+                    <div class="content-card-servicos d-flex flex-column justify-content-center px-4 rounded-3">
                         <div class="servicos-info">
                             <img src="icons/icon2-servicos.png" alt="Icone 2">
                             <h4 class="my-2">
                                 Impostos e Tributos
                             </h4>
                             <p class="mb-4">
-                                A Simplycont simplifica a gestão de impostos, garantindo conformidade e economia com um planejamento tributário eficiente.
+                                Facilitamos a gestão de impostos, garantindo conformidade.
                             </p>
                         </div>
                         <div class="btn-card-servicos">
@@ -456,15 +457,15 @@
                     </div>   
                 </div>
                 
-                <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-servicos d-flex flex-column justify-content-evenly px-3 rounded-3">
+                <div class="col-12 col-lg-3 mb-4">
+                    <div class="content-card-servicos d-flex flex-column justify-content-center px-4 rounded-3">
                         <div class="servicos-info">
                             <img src="icons/icon3-servicos.png" alt="Icone 3">
                             <h4 class="my-2">
                                 Gestão Financeira
                             </h4>
                             <p class="mb-4">
-                                A Simplycont oferece gestão financeira com relatórios, análise de caixa e projeções para decisões estratégicas seguras.
+                                Oferecemos gestão financeira para decisões estratégicas.
                             </p>
                         </div>
                         <div class="btn-card-servicos">
@@ -476,15 +477,15 @@
                 </div>
 
         
-                <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-servicos d-flex flex-column justify-content-evenly px-3 rounded-3">
+                <div class="col-12 col-lg-3 mb-4">
+                    <div class="content-card-servicos d-flex flex-column justify-content-center px-4 rounded-3">
                         <div class="servicos-info">
                             <img src="icons/icon4-servicos.png" alt="Icone 4">
                             <h4 class="my-2">
                                 Contabilidade Online
                             </h4>
                             <p class="mb-4">
-                                A Simplycont oferece contabilidade online com acompanhamento em tempo real e suporte especializado.
+                                A Simplycont oferece contabilidade online com suporte em tempo real.
                             </p>
                         </div>
                         <div class="btn-card-servicos">
@@ -495,15 +496,15 @@
                     </div>   
                 </div>
 
-                <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-servicos d-flex flex-column justify-content-evenly px-3 rounded-3">
+                <div class="col-12 col-lg-3 mb-4">
+                    <div class="content-card-servicos d-flex flex-column justify-content-center px-4 rounded-3">
                         <div class="servicos-info">
                             <img src="icons/icon5-servicos.png" alt="Icone 5">
                             <h4 class="my-2">
                                 Consultoria Contábil
                             </h4>
                             <p class="mb-4">
-                                A Simplycont oferece consultoria estratégica para maximizar eficiência e rentabilidade, com soluções para reduzir custos.
+                                A Simplycont oferece consultoria estratégica para aumentar eficiência.
                             </p>
                         </div>
                         <div class="btn-card-servicos">
@@ -514,15 +515,15 @@
                     </div>   
                 </div>
 
-                <div class="col-12 col-lg-4 mb-4">
-                    <div class="content-card-servicos d-flex flex-column justify-content-evenly px-3 rounded-3">
+                <div class="col-12 col-lg-3 mb-4">
+                    <div class="content-card-servicos d-flex flex-column justify-content-center px-4 rounded-3">
                         <div class="servicos-info">
                             <img src="icons/icon6-servicos.png" alt="Icone 6">
                             <h4 class="my-2">
                                 Regularização de Empresas
                             </h4>
                             <p class="mb-4">
-                                A Simplycont resolve pendências fiscais e documentais, garantindo a conformidade da sua empresa com as exigências legais.   
+                                Resolvemos pendências fiscais, garantindo conformidade legal.   
                             </p>
                         </div>
                         <div class="btn-card-servicos">
@@ -789,7 +790,7 @@
             <div class="row m-0">
                 <div class="col-12 col-lg-6 py-5 px-0">
                     <div class="content1-sobre px-5 d-flex flex-column justify-content-center">
-                        <div class="content-titulo-sobre d-flex flex-column align-items-start mb-5">
+                        <div class="content-titulo-sobre d-flex flex-column align-items-start mb-4">
                             <div class="titulos-sobre">
                                 <h2 class="titulo1-sobre m-0 p-0">
                                     SOBRE
@@ -801,11 +802,9 @@
                         </div>
 
                         <p class="mb-5">
-                            A <span class="strong-azul">Simplycont</span> é uma empresa especializada em serviços contábeis digitais, oferecendo soluções completas e acessíveis para empreendedores que buscam praticidade, agilidade e eficiência na gestão de suas finanças. Nosso objetivo é descomplicar o dia a dia do empresário, oferecendo um atendimento 100% online, que vai desde a abertura de empresas até a gestão tributária e financeira, garantindo que você tenha mais tempo para focar no crescimento do seu negócio.
+                            A <span class="strong-azul">Simplycont</span> é uma empresa de contabilidade digital que oferece soluções acessíveis e eficientes para empreendedores, desde a abertura de empresas até a gestão tributária e financeira.
                             <br><br>
-                            Com uma equipe altamente qualificada e especializada em pequenas e médias empresas, estamos prontos para atender diversas necessidades contábeis, sempre alinhados às mudanças constantes da legislação. Trabalhamos com uma abordagem personalizada, oferecendo consultoria estratégica que vai além dos números, ajudando nossos clientes a tomarem decisões mais informadas e eficientes, com base em análises financeiras detalhadas.
-                            <br><br>
-                            Na <span class="strong-azul">Simplycont</span>, nossa missão é trazer mais simplicidade e segurança para a vida do empreendedor, reduzindo burocracias e otimizando processos. O uso de tecnologias modernas nos permite oferecer um serviço ágil e seguro, onde o cliente pode acompanhar a saúde financeira da sua empresa em tempo real, com total transparência. Estamos comprometidos com a qualidade e a inovação, oferecendo um atendimento próximo e de confiança.
+                            Com uma equipe especializada em pequenas e médias empresas, oferece atendimento 100% online, consultoria estratégica e acompanhamento financeiro em tempo real, visando simplificar processos e reduzir burocracias. A empresa usa tecnologia para garantir agilidade, segurança e transparência, ajudando os clientes a tomar decisões mais informadas e focar no crescimento dos negócios.
                         </p>
 
                         <div class="btn-fazer-contato-sobre">
@@ -828,7 +827,7 @@
                                 Depoimento
         ==================================================================
         -->
-        <section class="bg-feedback py-5" id="feedback">
+        <section class="bg-feedback py-2" id="feedback">
             <div class="container py-5">
 
                 <div class="titulos-feedback mb-5">
@@ -916,56 +915,83 @@
         </section>
     </main>
 
+    <footer class="pt-5 pb-2">
 
-
-    <footer class="py-5">
         <!-- 
         ==================================================================
                                 Footer Menu
         ==================================================================
         -->
-        <div class="container mb-5" id="footer-menu">
+        <div class="container" id="footer-menu">
             <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="content1-footer-menu text-center text-lg-start mb-5 mb-lg-0">
-                        <ul class="m-0 p-0">
-                            <li><a href="#">Início</a></li>
-                            <li><a href="#servicos">Serviços</a></li>
-                            <li><a href="#perguntasErespostas">Perguntas</a></li>
-                            <li><a href="#Sobre">Sobre</a></li>
-                            <li><a href="#feedback">Depoimentos</a></li>
-                            <li><a href="#footer-menu">Contato</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="content2-footer-menu text-center text-lg-start mb-5 mb-lg-0">
-                        <h2>
-                            Telefone
-                        </h2>
-                        <p>
-                            (81) 9 8771-7205
-                        </p>
-                        <h2>
-                            Redes Socias
-                        </h2>
-                        <div class="redes-footer-menu">
-                            <a href=""><i class="bi bi-whatsapp"></i></a>
-                            <a href=""><i class="bi bi-instagram mx-2"></i></a>
+                <div class="col-12 col-lg-3">
+                    <div class="content1-footer-menu d-flex flex-column">
+                        <div class="logo-footer text-center mb-4">
+                            <img src="img/logo-footer.png" alt="Logo footer">
+                        </div>
+                        <div class="btn-content1-footer-menu text-center">
+                            <a href="#" class="py-2 px-4 rounded-1">
+                                Fazer Contato
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4">
-                    <div class="content3-footer-menu text-center text-lg-start">
-                        <h2 class="text-center text-lg-start">Email</h2>
-                        <p class="mb-3">
-                            <i class="bi bi-envelope"></i>
-                            email@email.com.br  
-                        </p>
+                <div class="col-9">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12 col-lg-3">
+                                <div class="content2-footer-menu ps-5">
+                                    <h2>
+                                        Menu
+                                    </h2>
+                                    <ul class="m-0 p-0">
+                                        <li><a href="#">Início</a></li>
+                                        <li><a href="#servicos">Serviços</a></li>
+                                        <li><a href="#Sobre">Sobre</a></li>
+                                        <li><a href="#perguntasErespostas">Perguntas</a></li>
+                                        <li><a href="#feedback">Depoimentos</a></li>
+                                        <li><a href="#footer-menu">Contato</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="content3-footer-menu">
+                                    <h2>
+                                        Telefone
+                                    </h2>
+                                    <p>
+                                        <i class="bi bi-telephone me-1"></i>
+                                        (81) 9 8771-7205
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="content4-footer-menu">
+                                    <h2>
+                                        Redes Sociais
+                                    </h2>
+                                    <a href="" class="me-3"><i class="bi bi-whatsapp"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-3">
+                                <div class="content4-footer-menu">
+                                    <h2>
+                                        Email
+                                    </h2>
+                                    <p>
+                                        <i class="bi bi-envelope me-1"></i>
+                                        email@email.com.br
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="linha-footer mx-auto mt-5"></div>
 
         <!-- 
         ==================================================================
@@ -973,28 +999,24 @@
         ==================================================================
         -->
         <div class="container" id="footer-copyright">
-            <div class="row">
-                <div class="col-12 col-lg-6 mb-4">
-                    <div class="content1-footer-copyright text-center">
-                        <p>
+            <div class="row mt-4">
+                <div class="col-12 col-lg-6">
+                    <div class="content1-footer-copy">
+                        <p class="text-center p-0 m-0">
                             © Copyright 2024 - Simplycont
                         </p>
-                        <img src="img/logo-footer.png" alt="Logo Simplycont">
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
-                    <div class="content2-footer-copyright text-center">
-                        <p>
-                            Desenvolvido por:
+                    <div class="content2-footer-copy">
+                        <p class="text-center">
+                            Desenvolvido por <a href="https://www.promovacomunicacao.com.br/" target="_blank">Promova Comunicação e Marketing</a>
                         </p>
-                        <img src="img/logo-footer-promova.webp" alt="Logo Promova">
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
-
 
 
     <!-- Link Bootstrap -->

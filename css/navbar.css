@@ -1,6 +1,11 @@
+.navbar-brand img{
+    width: 65%;
+}
+
 .navbar {
     background-color: white; /* Altere para a cor desejada */
     color: #0044CC;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 .nav-link{

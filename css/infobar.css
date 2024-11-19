@@ -22,3 +22,12 @@
 .redes-info-bar a:hover{
     color: #59A200;
 }
+
+
+
+.header-top-fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros elementos */
+}
